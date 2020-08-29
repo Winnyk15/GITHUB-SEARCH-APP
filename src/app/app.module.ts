@@ -13,7 +13,7 @@ const routes: Routes = [
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserRequestService } from './user-http/user-request.service';
+import { UserRequestService } from './user-request.service';
 
 import { UserComponent } from './user/user.component';
 import { AboutComponent } from './about/about.component';
