@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import {UsersService} from '../user-service/users.service';
+import {UserService} from '../user-service.service';
 
-import {UserRequestService} from '../user-http/user-request.service';
-import {User} from '../user-class/user';
-import {Repository} from '../repository-class/repository'
+import {UserRequestService} from '../user-request.service';
+import {User} from '../user';
+import {Repository} from '../repository'
 import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
-  styleUrls: ['./user.component.css']
-  providers:[UsersService,UserRequestService] 
+  styleUrls: ['./user.component.css'],
+  providers:[UserService,UserRequestService] 
 })
 export class UserComponent implements OnInit {
 
@@ -19,21 +19,21 @@ export class UserComponent implements OnInit {
 
   userName=""
 
-  constructor(private usersService:UserRequestService) { 
+  constructor(private userService:UserRequestService) { 
 
   }
 
   submitUser(){
-    this.usersService.userRequest(this.userName)
-    this.usersService.repositoryrequest(this.userName) 
+    this.userService.userRequest(this.userName)
+    this.userService.repositoryrequest(this.userName) 
 
   ngOnInit(): void {
 
-    this.usersService.userRequest('')
-      this.usersService.repositoryrequest('Joselyne97')
+    this.userService.userRequest('')
+      this.userService.repositoryrequest('Winnyk15')
            
-      this.user=this.usersService.user
-      this.repository=this.usersService.repository
+      this.user=this.userService.user
+      this.repository=this.userService.repository
       console.log(this.repository)
   }
 
