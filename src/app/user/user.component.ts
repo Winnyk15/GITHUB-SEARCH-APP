@@ -29,7 +29,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.usersService.userRequest('Joselyne97')
+    this.usersService.userRequest('')
       this.usersService.repositoryrequest('Joselyne97')
            
       this.user=this.usersService.user
