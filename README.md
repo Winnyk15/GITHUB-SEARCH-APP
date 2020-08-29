@@ -10,10 +10,7 @@ Winnie Kahendah
 1. kahendahwinnie@gmail.com
 
 ## Project description:
-
-
-
-
+This github search project is a website where users can enter a github username into a form, submit it and see names and descriptions of that person's public repositories.
 
 ## Technology used:
 
