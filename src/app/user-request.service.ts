@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http'
 import {User}from './user'
-import {Repository} from '../repository-class/repository'
+import {Repository} from './repository'
 //import{DateCountPipe} from '../date-count.pipe'
-import {environment} from '../../environments/environment'
+import {environment} from '../environments/environment'
 
 @Injectable({
   providedIn: 'root'
