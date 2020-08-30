@@ -1,10 +1,29 @@
 # GithubSearch
 
+
+## Author:
+
+Winnie Kahendah
+
+## Contact information:
+
+1. kahendahwinnie@gmail.com
+
+## Project description:
+This github search project is a website where users can enter a github username into a form, submit it and see names and descriptions of that person's public repositories.
+
+## Technology used:
+
+ 1. Angular js
+ 2. Node js
+ 3. Html
+ 4. Typescript
+ 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:45321/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -25,3 +44,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## The link to live site on GitHub Pages is :
+
