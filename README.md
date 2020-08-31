@@ -46,4 +46,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## The link to live site on GitHub Pages is :
-
+https://5f4ccf684ec6a10007c47b95--winnyk.netlify.app/user
